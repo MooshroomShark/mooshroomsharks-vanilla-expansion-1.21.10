@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "msvanillaexpansion",
+	"version": "1.0.2-1.21.10",
+	"name": "MooshroomShark's Vanilla+ Expansion",
+  "description": "This mod adds structures, nature, and crafting recipes using Vanilla blocks and mobs.",
+  "authors": [
+    "MooshroomShark"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/project/mooshroomsharks-vanilla-expansion",
+    "sources": "https://github.com/MooshroomShark/mooshroomsharks-vanilla-expansion-1.21.10"
+  },
+  "license": "AAR",
+	"icon": "assets/msvanillaexpansion/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mooshroomshark.msvanillaexpansion.MooshroomSharksVanillaExpansion"
+		],
+		"fabric-datagen": [
+			"mooshroomshark.msvanillaexpansion.MooshroomSharksVanillaExpansionDataGenerator"
+		]
+	},
+	"mixins": [
+		"msvanillaexpansion.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.17.2",
+		"minecraft": "~1.21.10",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
