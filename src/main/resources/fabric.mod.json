@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "msvanillaexpansion",
-	"version": "1.0.2-1.21.10",
+	"version": "1.0.4-1.21.10",
 	"name": "MooshroomShark's Vanilla+ Expansion",
   "description": "This mod adds structures, nature, and crafting recipes using Vanilla blocks and mobs.",
   "authors": [
@@ -9,6 +9,7 @@
   ],
   "contact": {
     "homepage": "https://modrinth.com/project/mooshroomsharks-vanilla-expansion",
+    "issues": "https://github.com/MooshroomShark/mooshroomsharks-vanilla-expansion-1.21.10/issues",
     "sources": "https://github.com/MooshroomShark/mooshroomsharks-vanilla-expansion-1.21.10"
   },
   "license": "AAR",
