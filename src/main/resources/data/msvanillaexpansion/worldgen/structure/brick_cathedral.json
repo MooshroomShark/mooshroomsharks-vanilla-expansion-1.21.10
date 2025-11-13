@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "#msvanillaexpansion:has_structure/brick_cathedral",
+  "biomes": "#msvanillaexpansion:has_structure/brick_cathedral_biomes",
   "step": "surface_structures",
   "spawn_overrides": {},
   "terrain_adaptation": "beard_thin",
